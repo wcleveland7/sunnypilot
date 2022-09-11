@@ -63,7 +63,6 @@ class CarInterface(CarInterfaceBase):
       CarInterfaceBase.configure_torque_tune(candidate, ret.lateralTuning)
       ret.minSteerSpeed = 0.5
       ret.minEnableSpeed = 14.6
-      ret.minSteerSpeed = 14.5
       if car_fw is not None:
         for fw in car_fw:
           if fw.ecu == 'eps' and fw.fwVersion in (b"68273275AF", b"68273275AG", b"68312176AE", b"68312176AG", ):
