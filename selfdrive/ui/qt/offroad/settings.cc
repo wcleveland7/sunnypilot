@@ -599,5 +599,7 @@ SunnypilotPanel::SunnypilotPanel(QWidget* parent) : QWidget(parent) {
   toggle_layout->addWidget(horizontal_line());
   toggle_layout->addWidget(new OnroadScreenOffBrightness());
   toggle_layout->addWidget(horizontal_line());
-  toggle_layout->addWidget(new MaxTimeOffroad());
+  toggle_layout->addWidget(new MaxTimeOffroad());  
+  toggle_layout->addWidget(horizontal_line());
+  toggle_layout->addWidget(new CameraOffset());
 }
